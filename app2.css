@@ -1,0 +1,141 @@
+:root {
+    background-image:url("6.png") ;
+    background-position: left;
+     
+     background-size: cover;
+     width: 200;
+      font-size: 62.5%;
+    }
+    
+.step{
+    border-radius: 15px;
+     font-size: 17px;
+     width: 350px;
+      text-align: center;
+      padding: 10px 30px;
+      background-color:rgb(197 216 219);
+      margin-bottom: 3px;
+      color: rgb(17 40 77);
+      text-transform: capitalize;
+      font-family:sans-serif;
+  }
+  .bord{
+    background-image: linear-gradient(to right, #819ac4 0%, rgb(47 71 109) 51%, #7287a2 100%);
+      padding:10px 40px;
+      margin-bottom: 0px;
+      border-radius: 85px 2px 76px;
+    
+  }
+  
+  
+  .bord p{
+    margin-bottom: .7em;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #819ac4 0%, rgb(47 71 109) 51%, #7287a2 100%);
+  font-size: 30px;
+  }
+.a{
+    align-items: center;
+}  
+
+
+.btn1 {background-image: linear-gradient(to right, #819ac4 0%, rgb(17 40 77) 51%, #819ac4 100%);
+}
+.btn1{
+    font-size: 22px;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center ;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 0rem;
+    text-decoration: none;
+   color: #0b3d68;
+    background-color:rgb(223, 231, 245);
+    border-radius: 45px;
+    margin-bottom: 7px;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 5px 10px #779dc6;
+           
+            display: block;
+}
+.btn1:hover{
+    background-position: right center; /* change the direction of the change here */
+            color:#fff ;
+            text-decoration: none;
+}
+
+@font-face {
+  font-family:'HeydingsCommonIconsRegular';
+  src: url('http://ianfarb.com/random/heydings_icons-webfont.eot');
+  src: url('http://ianfarb.com/random/heydings_icons-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://ianfarb.com/random/heydings_icons-webfont.woff') format('woff'),
+       url('http://ianfarb.com/random/heydings_icons-webfont.ttf') format('truetype'),
+       url('http://ianfarb.com/random/heydings_icons-webfont.svg#HeydingsCommonIconsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+.bg {
+position: fixed;
+z-index: -1;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+transition: .25s;
+pointer-events: none;
+}
+
+li
+{  list-style:none;
+ }
+
+li a
+  { display:block;
+    float:left;
+    width:20%;
+    padding:25px 0;
+    text-align:center;
+    font-family: 'HeydingsCommonIconsRegular', Helvetida Neue, sans-serif;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom: 1em;
+    border-radius: 60px;
+    font-size:40px;
+    color:#fff;
+    background:#ccc;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-shadow:2px 2px 0 rgba(0,0,0,.25);
+    transition:.25s;}
+
+    li a:hover  {
+      margin:-10px 0 0 0;
+}
+
+.menu
+    {  width:500px;
+       margin:60px auto 0 auto;
+       border-radius:10px;
+       overflow:hidden;
+    }
+       
+.menu li:first-child a { background-image: linear-gradient( 135deg, #f8c350 10%, #3677FF 100%)!important;}
+.menu li:nth-child(2) a {background-image: linear-gradient( 135deg, #8fc5c1 10%, #3b85b3 100%)!important;}
+.menu li:nth-child(3) a { background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%) !important;}
+.menu li:nth-child(4) a { background-image: linear-gradient( 135deg, #C2FFD8 10%, #465EFB 100%)    !important;}
+.menu li:nth-child(5) a {  background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%) !important;}
+body, html{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

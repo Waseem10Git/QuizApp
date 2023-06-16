@@ -1,0 +1,14 @@
+*{
+    color: white;
+}
+table{
+    border: #56a5eb solid 2px;
+    border: 2;
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+th{
+    border:#56a5eb solid 2px;
+    padding: 10px;
+}
